@@ -3,7 +3,8 @@ title: "Finding the Right Electric Car in 2026: What the Numbers Say and Which M
 date: "2026-08-21"
 tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
-category: "Guides"
+layout: base.njk
+tags: Guides
 ---
 
 # Finding the Right Electric Car in 2026: What the Numbers Say and Which Models We Recommend
