@@ -1,0 +1,25 @@
+---json
+{
+  "permalink": "/llms.txt",
+  "eleventyExcludeFromCollections": true
+}
+---
+# TurningCircle
+
+> TurningCircle is an independent UK publication covering the car market and the switch to electric. Articles are research-led and cite their primary sources, usually SMMT registration data and GOV.UK policy documents.
+
+Site: {{ site.url }}/
+RSS: {{ site.url }}/feed.xml
+About: {{ site.url }}/about/
+
+## Articles
+
+{% for post in collections.posts %}
+- [{{ post.data.title }}]({{ site.url }}{{ post.url }}): {{ post.data.description }}
+{% endfor %}
+
+## Usage notes
+
+- Content is written for human readers and is free to access, with no paywall or login.
+- Article URLs are stable and suitable for citation.
+- Quoting with attribution and linking is welcome.

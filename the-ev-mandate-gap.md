@@ -1,12 +1,13 @@
 ---
 title: "The EV Mandate Gap: How Far the UK Electric Car Market Is From Its Own Target"
+description: "The ZEV mandate asks for 33% of new cars to be electric by the end of 2026. The latest SMMT registrations show how close the market is to the line."
 date: "2026-08-25"
 tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
-layout: base.njk
+layout: article.njk
+ogType: article
+image: /assets/og/the-ev-mandate-gap.png
 ---
-
-# The EV Mandate Gap: How Far the UK Electric Car Market Is From Its Own Target
 
 The government gave the car market a number to hit. By the end of 2026, battery electric cars should account for 33% of new registrations under the ZEV Mandate, rising to 38% in 2027. The mandate is the single clearest line on the map of where this country wants its roads going, and it gives everyone a shared yardstick. The question each month is simple: how far away from that line are we actually standing?
 
@@ -40,6 +41,3 @@ The mandate gap is a measure of ambition versus behaviour, and right now behavio
 - [SMMT: UK New Car and Van Outlook (July 2026)](https://www.smmt.co.uk/vehicle-data/uk-new-car-and-van-outlook)
 - [We Buy Any Car: EV Market Statistics](https://www.webuyanycar.com/about-us/press-centre/ev-statistics)
 - [GOV.UK: Electric Car Grant announcement](https://www.gov.uk/government/news/four-more-ev-models-qualify-for-3750-discount-under-electric-car-grant-as-government-pumps-an-extra-15-billion-into-the-switch-to-electric)
-
-***
-*Generated for Turning Circle.UK*

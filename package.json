@@ -20,5 +20,8 @@
   "homepage": "https://github.com/cymru2000/TurningCircle#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^3.0.0"
   }
 }

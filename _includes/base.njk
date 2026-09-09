@@ -1,154 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if title %}{% if title.indexOf("Turning Circle") === -1 %}<title>{{ title }} | Turning Circle</title>{% else %}<title>{{ title }}</title>{% endif %}{% else %}<title>Turning Circle</title>{% endif %}
+    <title>{% if title and title != "TurningCircle" %}{{ title }} | TurningCircle{% else %}TurningCircle - The UK car market, read properly{% endif %}</title>
+    {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <meta name="theme-color" content="#faf8f4">
+    <link rel="alternate" type="application/rss+xml" title="TurningCircle RSS" href="{{ site.url }}/feed.xml">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+    <meta property="og:site_name" content="TurningCircle">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="{{ ogType or 'website' }}">
+    <meta property="og:title" content="{{ title or 'TurningCircle' }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+    {% if ogType == 'article' %}
+    {% set ogImage = image or ('/assets/og/' ~ (page.url | replace('/', '')) ~ '.png') %}
+    {% else %}
+    {% set ogImage = image or '/assets/og/default.png' %}
+    {% endif %}
+    <meta property="og:image" content="{{ site.url }}{{ ogImage }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    {% if ogType == 'article' and date %}<meta property="article:published_time" content="{{ date | dateISO }}">{% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title or 'TurningCircle' }}">
+    {% if description %}<meta name="twitter:description" content="{{ description }}">{% endif %}
+    <meta name="twitter:image" content="{{ site.url }}{{ ogImage }}">
+    <link rel="preload" href="/assets/fonts/fraunces-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/newsreader-var.woff2" as="font" type="font/woff2" crossorigin>
     <style>
-        /* Base Reset & Variables */
-        :root {
-            --bg-color: #f4f4f2; /* Off-white for a natural feel */
-            --text-main: #2b2b2b; /* Soft black for readability */
-            --slate-dark: #1a1e24; /* Asphalt gray for header/footer */
-            --amber-accent: #d97736; /* Adventure orange accent */
-            --font-body: system-ui, -apple-system, sans-serif;
-            --font-display: "Georgia", serif; /* Gives an editorial, magazine feel */
+        @font-face{font-family:"Fraunces";src:url("/assets/fonts/fraunces-var.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+        @font-face{font-family:"Newsreader";src:url("/assets/fonts/newsreader-var.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+        @font-face{font-family:"Newsreader";src:url("/assets/fonts/newsreader-italic-var.woff2") format("woff2");font-weight:200 800;font-style:italic;font-display:swap}
+        :root{
+            --paper:#faf8f4;--paper-2:#f1ede3;--ink:#23211b;--ink-soft:#6b665a;
+            --rule:#ddd5c5;--amber:#d97736;--amber-deep:#a04a12;--slate:#1a1e24;
+            --display:"Fraunces",Georgia,"Times New Roman",serif;
+            --text:"Newsreader",Georgia,"Times New Roman",serif;
+            --ui:system-ui,-apple-system,"Segoe UI",sans-serif;
         }
-        
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        
-        body {
-            font-family: var(--font-body);
-            color: var(--text-main);
-            background-color: var(--bg-color);
-            line-height: 1.6;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        /* Header & Navigation */
-        header {
-            background-color: var(--slate-dark);
-            color: white;
-            padding: 1.5rem 5%;
-            border-bottom: 4px solid var(--amber-accent);
-        }
-        
-        .nav-container {
-            max-width: 1000px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-family: var(--font-display);
-            font-size: 1.8rem;
-            font-weight: bold;
-            text-decoration: none;
-            color: white;
-            letter-spacing: 1px;
-        }
-
-        .logo span { color: var(--amber-accent); }
-
-        nav a {
-            color: #d1d5db;
-            text-decoration: none;
-            margin-left: 1.5rem;
-            font-weight: 500;
-            transition: color 0.2s ease;
-        }
-
-        nav a:hover { color: var(--amber-accent); }
-
-        /* Main Content Area */
-        main {
-            flex: 1;
-            max-width: 800px;
-            margin: 3rem auto;
-            padding: 0 2rem;
-            width: 100%;
-        }
-
-        /* Article Styling */
-        article h1 {
-            font-family: var(--font-display);
-            font-size: 2.5rem;
-            line-height: 1.2;
-            margin-bottom: 1rem;
-            color: var(--slate-dark);
-        }
-        
-        .metadata {
-            font-size: 0.9rem;
-            color: #6b7280;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 2rem;
-            border-bottom: 1px solid #d1d5db;
-            padding-bottom: 1rem;
-        }
-
-        article h2 {
-            font-family: var(--font-display);
-            margin: 2rem 0 1rem;
-            color: var(--slate-dark);
-        }
-
-        article p { margin-bottom: 1.5rem; font-size: 1.1rem; }
-
-        article img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 4px;
-            margin: 2rem 0;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-
+        *{box-sizing:border-box;margin:0;padding:0}
+        html{font-optical-sizing:auto}
+        body{background:var(--paper);color:var(--ink);font-family:var(--text);line-height:1.65;font-size:1.0625rem;-webkit-font-smoothing:antialiased}
+        img{max-width:100%;height:auto}
+        .shell{max-width:1060px;margin-inline:auto;padding-inline:1.25rem}
+        .skip{position:absolute;left:-999px;top:0;background:var(--slate);color:#fff;padding:.5rem .9rem;z-index:10;font-family:var(--ui);font-size:.8rem}
+        .skip:focus{left:0}
+        :focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+        ::selection{background:#f3d9bf}
+        /* Header */
+        .site-header{border-top:7px solid var(--amber);border-bottom:2px solid var(--ink)}
+        .header-row{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;padding-block:1.15rem}
+        .wordmark{font-family:var(--display);font-weight:640;font-size:1.75rem;letter-spacing:-.015em;text-decoration:none;color:var(--ink)}
+        .wordmark span{color:var(--amber)}
+        .wordmark-small{font-size:1.15rem}
+        .site-nav{display:flex;gap:1.5rem;font-family:var(--ui);font-size:.73rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase}
+        .site-nav a{text-decoration:none;color:var(--ink-soft);padding-block:.3rem}
+        .site-nav a:hover{color:var(--amber-deep)}
+        main.shell{padding-block:2.5rem 4.5rem;min-height:55vh}
+        /* Shared */
+        .kicker{font-family:var(--ui);font-size:.72rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--amber-deep)}
+        .list-head{font-family:var(--ui);font-size:.73rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);border-top:2px solid var(--ink);padding-top:.8rem}
+        /* Home */
+        .hero{padding-block:2.4rem 3rem}
+        .hero h1{font-family:var(--display);font-weight:600;font-size:clamp(2.1rem,4.6vw,3.3rem);line-height:1.05;letter-spacing:-.012em;margin-top:.75rem}
+        .standfirst{font-style:italic;font-size:1.3rem;line-height:1.5;color:var(--ink-soft);margin-top:1.1rem;max-width:56ch}
+        .article-list{list-style:none}
+        .article-list li{border-bottom:1px solid var(--rule);padding-block:1.8rem}
+        .entry-meta{display:flex;gap:1rem;flex-wrap:wrap;font-family:var(--ui);font-size:.71rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+        .entry-meta .tag{color:var(--amber-deep)}
+        .entry-title{font-family:var(--display);font-weight:600;font-size:1.55rem;line-height:1.16;letter-spacing:-.008em;margin-top:.55rem}
+        .article-list li:first-child .entry-title{font-size:clamp(1.75rem,3vw,2.2rem)}
+        .entry-title a{text-decoration:none;color:var(--ink)}
+        .entry-title a:hover{color:var(--amber-deep);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
+        .entry-desc{color:var(--ink-soft);margin-top:.55rem;max-width:64ch}
+        /* Article and pages */
+        .article-header,.page-head{max-width:44rem}
+        .article-header h1,.page-head h1{font-family:var(--display);font-weight:600;font-size:clamp(1.9rem,4vw,2.75rem);line-height:1.09;letter-spacing:-.012em;margin-top:.65rem}
+        .article-standfirst{font-style:italic;font-size:1.24rem;line-height:1.5;color:var(--ink-soft);margin-top:1.05rem}
+        .byline{display:flex;gap:1.1rem;flex-wrap:wrap;font-family:var(--ui);font-size:.71rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft);border-block:1px solid var(--rule);padding-block:.8rem;margin-top:1.7rem}
+        .byline .who{color:var(--ink)}
+        .prose{max-width:44rem;margin-top:2.6rem;overflow-wrap:break-word}
+        .prose p{margin-block:1.15em;font-size:1.13rem;line-height:1.72}
+        .prose>p:first-of-type::first-letter{font-family:var(--display);font-weight:600;font-size:3.4em;line-height:.8;float:left;padding:.09em .13em 0 0;color:var(--slate)}
+        .prose>p:last-of-type::after{content:"\00A0\25C6";color:var(--amber);font-size:.7em}
+        .prose h2{font-family:var(--display);font-weight:600;font-size:1.68rem;line-height:1.2;letter-spacing:-.008em;margin-top:2.7rem}
+        .prose h3{font-family:var(--display);font-weight:600;font-size:1.3rem;margin-top:2.1rem}
+        .prose a{color:var(--amber-deep);text-underline-offset:3px}
+        .prose a:hover{color:var(--ink)}
+        .prose ul,.prose ol{margin-block:1.2em;padding-left:1.5rem}
+        .prose li{margin-block:.45em;font-size:1.08rem}
+        .prose h2+ul{list-style:none;padding-left:0;margin-block:.9em}
+        .prose h2+ul li{font-size:.95rem;color:var(--ink-soft)}
+        .prose h2+ul li::before{content:"\2192\00A0\00A0";color:var(--amber)}
+        .prose table{display:block;width:100%;max-width:100%;overflow-x:auto;border-collapse:collapse;margin-block:1.7rem;font-size:.97rem}
+        .prose th{font-family:var(--ui);font-size:.71rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;text-align:left;border-bottom:2px solid var(--ink);padding:.6rem .65rem;white-space:nowrap}
+        .prose td{border-bottom:1px solid var(--rule);padding:.6rem .65rem}
+        .prose tbody tr:nth-child(even) td{background:var(--paper-2)}
+        .prose blockquote{border-left:3px solid var(--amber);padding:.15rem 0 .15rem 1.25rem;margin-block:1.6rem;font-style:italic;color:var(--ink-soft);font-size:1.15rem}
+        .prose strong{font-weight:600}
+        .prose hr{border:0;border-top:1px solid var(--rule);margin-block:2.3rem}
+        .article-footer{max-width:44rem;margin-top:3.2rem}
+        .related{list-style:none;margin-top:.9rem}
+        .related li{border-bottom:1px solid var(--rule)}
+        .related a{display:inline-block;font-family:var(--display);font-weight:600;font-size:1.18rem;text-decoration:none;color:var(--ink);padding-block:.7rem}
+        .related a:hover{color:var(--amber-deep)}
         /* Footer */
-        footer {
-            background-color: var(--slate-dark);
-            color: #9ca3af;
-            text-align: center;
-            padding: 2rem;
-            font-size: 0.9rem;
-            margin-top: auto;
+        .site-footer{border-top:2px solid var(--ink);padding-block:1.7rem 2.3rem}
+        .footer-row{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+        .footer-colophon{margin-top:1.1rem;font-family:var(--ui);font-size:.72rem;letter-spacing:.05em;color:var(--ink-soft)}
+        .footer-colophon p{margin-block:.15rem}
+        @media (max-width:560px){
+            .header-row{padding-block:.95rem}
+            .site-nav{gap:1.05rem}
+            .prose p{font-size:1.07rem}
+            .prose>p:first-of-type::first-letter{font-size:3em}
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="nav-container">
-            <a href="/" class="logo">Turning<span>Circle</span></a>
-            <nav>
-                <a href="/">Home</a>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="shell header-row">
+            <a class="wordmark" href="/">Turning<span>Circle</span></a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="/">Articles</a>
                 <a href="/about/">About</a>
+                <a href="/feed.xml">RSS</a>
             </nav>
         </div>
     </header>
-
-    <main>
-        <article>
-            {% if title %}
-                <h1>{{ title }}</h1>
-            {% endif %}
-            
-            {% if date or author %}
-                <div class="metadata">
-                    {% if author %} By {{ author }} {% endif %} 
-                    {% if date %} • {{ date }} {% endif %}
-                </div>
-            {% endif %}
-
-            {{ content | safe }}
-        </article>
+    <main id="main" class="shell">
+        {{ content | safe }}
     </main>
-
-    <footer>
-        <p>&copy; 2026 Turning Circle. Built for the journey.</p>
+    <footer class="site-footer">
+        <div class="shell footer-row">
+            <a class="wordmark wordmark-small" href="/">Turning<span>Circle</span></a>
+            <nav class="site-nav" aria-label="Footer navigation">
+                <a href="/">Articles</a>
+                <a href="/about/">About</a>
+                <a href="/feed.xml">RSS</a>
+            </nav>
+        </div>
+        <div class="shell footer-colophon">
+            <p>&copy; 2026 TurningCircle. No cookies, no trackers. Set in Fraunces and Newsreader.</p>
+        </div>
     </footer>
 </body>
 </html>

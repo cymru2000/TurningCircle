@@ -1,12 +1,13 @@
 ---
 title: "Finding the Right Electric Car in 2026: What the Numbers Say and Which Models We Recommend"
+description: "Registration data, used-market numbers and grant changes paint a clear picture of electric car buying in the UK this year, plus the models worth your money in each segment."
 date: "2026-08-21"
 tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
-layout: base.njk
+layout: article.njk
+ogType: article
+image: /assets/og/the-maturing-road.png
 ---
-
-# Finding the Right Electric Car in 2026: What the Numbers Say and Which Models We Recommend
 
 Choosing an electric car used to mean choosing between a handful of options. That is no longer true. The UK market now offers more than sixty fully electric models, prices have fallen across most segments, and the data tells us exactly what other drivers are doing with theirs. This guide sets out where the market stands right now, what the ownership numbers look like, and which cars we would actually recommend for different budgets and needs.
 
@@ -77,6 +78,3 @@ Match the segment to your life, check the running cost maths for your own mileag
 - [The Conversation: What will 2026 look like for the UK's electric vehicle market?](https://theconversation.com/what-will-2026-look-like-for-the-uks-electric-vehicle-market-271441)
 - [The Independent: Best electric cars 2026](https://the-independent.com/cars/electric-vehicles/best-electric-cars-uk-new-2026-b3024708.html)
 - [Nimblefins: Best Electric Cars in the UK 2026](https://nimblefins.co.uk/best-electric-cars)
-
-***
-*Generated for Turning Circle.UK*

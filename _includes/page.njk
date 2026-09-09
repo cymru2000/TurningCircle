@@ -1,0 +1,11 @@
+---
+layout: base.njk
+---
+<div class="page-head">
+    <p class="kicker">{{ kicker or "TurningCircle" }}</p>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="article-standfirst">{{ description }}</p>{% endif %}
+</div>
+<div class="prose">
+    {{ content | safe }}
+</div>

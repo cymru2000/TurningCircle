@@ -1,0 +1,60 @@
+---
+layout: base.njk
+---
+<article>
+    <header class="article-header">
+        <p class="kicker">{{ tags[0] | tagLabel }}</p>
+        <h1>{{ title }}</h1>
+        {% if description %}<p class="article-standfirst">{{ description }}</p>{% endif %}
+        <div class="byline">
+            <span class="who">By {{ author }}</span>
+            <span><time datetime="{{ date | dateISO }}">{{ date | dateHuman }}</time></span>
+            <span>{{ content | readingTime }} min read</span>
+        </div>
+    </header>
+    <div class="prose">
+        {{ content | safe }}
+    </div>
+</article>
+<aside class="article-footer">
+    <p class="list-head">More from TurningCircle</p>
+    <ul class="related">
+        {% set related = [] %}
+        {% for p in collections.posts %}
+            {% if p.url != page.url and related.length < 2 %}
+                {% set _pushed = related.push(p) %}
+            {% endif %}
+        {% endfor %}
+        {% for p in related %}
+        <li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
+        {% endfor %}
+    </ul>
+</aside>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": {{ title | dump | safe }},
+    {% if description %}"description": {{ description | dump | safe }},{% endif %}
+    "datePublished": "{{ date | dateISO }}",
+    "dateModified": "{{ (updated or date) | dateISO }}",
+    "image": ["{{ site.url }}{{ image or ('/assets/og/' ~ (page.url | replace('/', '')) ~ '.png') }}"],
+    "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+    "author": {
+        "@type": "Organization",
+        "name": {{ (author or 'The TurningCircle Team') | dump | safe }},
+        "url": "{{ site.url }}/about/"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "TurningCircle",
+        "url": "{{ site.url }}/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}/assets/img/apple-touch-icon.png"
+        }
+    },
+    "isAccessibleForFree": true,
+    "inLanguage": "en-GB"
+}
+</script>
