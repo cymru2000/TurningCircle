@@ -23,12 +23,23 @@ SRC = ROOT / "assets" / "fonts" / "src"
 OG_DIR = ROOT / "assets" / "og"
 IMG_DIR = ROOT / "assets" / "img"
 
-SLATE = (26, 30, 36)
-AMBER = (217, 119, 54)
-PAPER = (250, 248, 244)
-GREY = (156, 160, 168)
+FONT_URLS = {
+    "Fraunces.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf",
+    "Newsreader.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf",
+    "Newsreader-Italic.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader-Italic%5Bopsz%2Cwght%5D.ttf",
+}
 
-SKIP = {"index.md", "about.md", "404.md"}
+
+def ensure_fonts():
+    """Source TTFs are not committed; fetch them on demand."""
+    import urllib.request
+
+    SRC.mkdir(parents=True, exist_ok=True)
+    for name, url in FONT_URLS.items():
+        p = SRC / name
+        if not p.exists():
+            print(f"fetching {name}...")
+            urllib.request.urlretrieve(url, p)
 
 
 def font_path(name, windows_fallback):
@@ -39,6 +50,13 @@ def font_path(name, windows_fallback):
     if alt.exists():
         return alt
     raise SystemExit(f"font not found: {name}")
+
+SLATE = (26, 30, 36)
+AMBER = (217, 119, 54)
+PAPER = (250, 248, 244)
+GREY = (156, 160, 168)
+
+SKIP = {"index.md", "about.md", "404.md"}
 
 
 FRAUNCES = font_path("Fraunces.ttf", "georgiab.ttf")
@@ -168,6 +186,7 @@ def icon(path, size, rounded):
 
 
 def main():
+    ensure_fonts()
     og_card(OG_DIR / "default.png", tagline="The UK car market, read properly.")
     for md in sorted(ROOT.glob("*.md")):
         if md.name in SKIP:
