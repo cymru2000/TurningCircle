@@ -3,14 +3,14 @@ layout: base.njk
 title: "Turning Circle | Built for the journey"
 ---
 
-We focus on the adventure, the road trips, and the stories—not just the spec sheets. 
+TurningCircle covers the UK car market and the switch to electric, with researched guides and the stories behind the spec sheets.
 
-## Latest Adventures
+## Latest Articles
 
 <ul>
-{% for post in collections.adventures %}
+{% for post in collections.posts %}
   <li>
-    <strong><a href="{{ post.url }}">{{ post.data.title }}</a></strong> 
+    <strong><a href="{{ post.url }}">{{ post.data.title }}</a></strong>
     <br>
     <em>Published on {{ post.date | date: "%Y-%m-%d" }}</em>
   </li>

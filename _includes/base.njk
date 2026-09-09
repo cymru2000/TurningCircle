@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} | Turning Circle</title>
+    {% if title %}{% if title.indexOf("Turning Circle") === -1 %}<title>{{ title }} | Turning Circle</title>{% else %}<title>{{ title }}</title>{% endif %}{% else %}<title>Turning Circle</title>{% endif %}
     <style>
         /* Base Reset & Variables */
         :root {
@@ -125,9 +125,7 @@
             <a href="/" class="logo">Turning<span>Circle</span></a>
             <nav>
                 <a href="/">Home</a>
-                <a href="/adventures">Adventures</a>
-                <a href="/garage">The Garage</a>
-                <a href="/about">About</a>
+                <a href="/about/">About</a>
             </nav>
         </div>
     </header>
