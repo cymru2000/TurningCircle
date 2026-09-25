@@ -10,7 +10,7 @@ eleventyComputed:
   title: "{{ topic }}"
   description: "{{ topicBlurbs[topic] }}"
 ---
-{% from "card.njk" import photo, card %}
+{% from "card.njk" import photo, card with context %}
 {% set stories = collections.posts | byTopic(topic) %}
 <section class="topic-head">
     <p class="kicker">Topic</p>
