@@ -18,7 +18,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
     {% if ogType == 'article' %}
-    {% set ogImage = image or ('/assets/og/' ~ (page.url | replace('/', '')) ~ '.png') %}
+    {% set ogImage = image or (hero and (hero ~ '-og.jpg')) or ('/assets/og/' ~ (page.url | replace('/', '')) ~ '.png') %}
     {% else %}
     {% set ogImage = image or '/assets/og/default.png' %}
     {% endif %}

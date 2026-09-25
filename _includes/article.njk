@@ -41,7 +41,7 @@ layout: base.njk
     {% if description %}"description": {{ description | dump | safe }},{% endif %}
     "datePublished": "{{ date | dateISO }}",
     "dateModified": "{{ (updated or date) | dateISO }}",
-    "image": ["{{ site.url }}{{ image or ('/assets/og/' ~ (page.url | replace('/', '')) ~ '.png') }}"],
+    "image": ["{{ site.url }}{{ image or (hero and (hero ~ '-og.jpg')) or ('/assets/og/' ~ (page.url | replace('/', '')) ~ '.png') }}"],
     "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
     "articleSection": {{ (topic or '') | dump | safe }},
     "author": {
