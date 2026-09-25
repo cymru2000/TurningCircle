@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/showroom"
+heroCredit: "Pexels"
 ---
 
 On 1 September the 76 plate arrives. From that morning until the end of February 2027, every new car registered in Britain will carry the two digits that tell other road users it was bought in the second half of 2026. Twice a year the plate change does this: it gives the market a focal point, gives dealers a hook for offers, and gives buyers a reason to time their purchase. March and September between them account for the bulk of annual registrations, and September is traditionally the second biggest month of the year.

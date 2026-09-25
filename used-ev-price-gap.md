@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/forecourt"
+heroCredit: "Pexels"
 ---
 
 For most of the last decade, the electric version of a car cost more than the petrol one, new or used, and buyers who wanted one paid a green premium. That logic has now broken down on the used market. Analysis of more than 14 million vehicle adverts by [Indicata, the used-vehicle pricing firm](https://www.am-online.com/news/used-evs-now-cheaper-than-equivalent-petrol-and-diesel-cars), found that used electric cars are now an average of £1,800 cheaper than their petrol and diesel equivalents, a crossover point few in the trade expected this soon.

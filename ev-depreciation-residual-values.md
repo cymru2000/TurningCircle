@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/forecourt"
+heroCredit: "Pexels"
 ---
 
 For most of the past three years, the answer to "what about depreciation?" has been the awkward one in every electric car conversation. Used EV prices fell steadily from their pandemic-era peak, and plenty of early adopters watched their car shed tens of thousands of pounds in value. That was the backdrop. The current picture is different, and the change has arrived quickly enough that it is worth setting out plainly what the data now says.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/showroom"
+heroCredit: "Pexels"
 ---
 
 The Society of Motor Manufacturers and Traders published its August registration figures on 4 September, and they make encouraging reading for anyone who has spent the year watching this market. [94,236 new cars were registered during the month](https://www.smmt.co.uk/evs-lift-august-new-car-market-but-september-is-key-test/), a rise of 13.7% on August 2025 and the strongest August since the current plate change system began. It was the ninth consecutive month of growth. Battery electric cars accounted for 28,063 of those sales, up 27.7% on the same month last year, for a 29.8% share of everything registered.

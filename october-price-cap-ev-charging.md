@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/homecharge"
+heroCredit: "Pexels"
 ---
 
 The electricity price most households pay changes on 1 October, and for anyone running an electric car it is worth ten minutes of attention. Ofgem's cap for the three months to 31 December sets the ceiling on standard variable tariffs, which is what a supplier is allowed to charge if you have never switched or your last fixed deal has expired. The new electricity unit rate is 26.32p per kilowatt hour, up from 26.11p, and the electricity standing charge falls to 54.83p a day from 57.19p. Those are the two numbers that decide what a home charge costs this winter.

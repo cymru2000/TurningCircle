@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/roadtrip"
+heroCredit: "Pexels"
 ---
 
 How many miles do you actually drive in a year? Most people guess high. Ask a room of drivers and the answers usually start at 12,000 miles and climb, a figure borrowed from lease agreements and company car policies rather than from real life. The official numbers tell a quieter story, and that story matters for almost every decision a car buyer makes, from the size of the battery you need to the tax you will pay later this decade.

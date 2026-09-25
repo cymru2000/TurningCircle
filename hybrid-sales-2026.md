@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/showroom"
+heroCredit: "Pexels"
 ---
 
 The electric car transition gets the attention, but the fastest-growing powertrain in Britain right now is the one that does a bit of both. In July, plug-in hybrid registrations rose 33.6% year on year, taking a 14.9% share of the market, according to the [SMMT's July registration data](https://www.smmt.co.uk/huge-ev-boost-in-july-yet-mandate-gap-persists/). Conventional hybrids grew more quietly, up 11.6% to a 13.2% share. Between them, cars that combine a battery with a combustion engine now account for roughly 28% of every new car sold in the country.

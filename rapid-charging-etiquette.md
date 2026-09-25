@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/chargehub"
+heroCredit: "Pexels"
 ---
 
 There is no rulebook for public charging. Nothing in the driving test covers it, no regulation dictates who gets the last rapid charger at a busy motorway services on a Friday evening, and no signage explains the conventions that every experienced electric car driver has quietly absorbed. Petrol forecourts had decades to settle their norms: pump on the left, pay at the kiosk, move your car before you browse the meal deal. Electric charging is still working its norms out, and the process is happening in public, one bay at a time.

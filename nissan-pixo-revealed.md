@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/smallcar"
+heroCredit: "Pexels"
 ---
 
 Nissan has unveiled the Pixo, its new electric city car, and the headline is not a number on a specification sheet. It is the position the car takes up. The Pixo returns Nissan to Europe's smallest class under a name the company retired 13 years ago, and it sits at the cheapest end of an electric market that has been waiting for a genuinely affordable city car. We flagged the Pixo as the reveal to watch in our [autumn guide to the electric cars arriving before 2027](/new-evs-final-quarter-2026/), and it has arrived much as expected, with one large question left open.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Charging"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/chargehub"
+heroCredit: "Pexels"
 ---
 
 Public charging prices have been remarkably stable through the summer, and that stability is itself the story. While the network behind the prices keeps expanding, the amounts drivers actually pay per kilowatt-hour have barely moved since spring, which makes this a sensible moment to take stock of what charging costs, where the price spread sits, and how a driver who plans even slightly can pay meaningfully less than the headline rates.

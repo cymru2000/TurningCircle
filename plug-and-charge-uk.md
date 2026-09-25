@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/chargehub"
+heroCredit: "Pexels"
 ---
 
 Public charging in Britain has a reputation problem that has nothing to do with how many chargers exist. The complaints are about the small stuff: the app that wants an account before it wants your car, the RFID card in the wrong jacket, the tap that fails in the rain, the price you only discover once the session is running. On 7 September, Osprey Charging launched a feature aimed squarely at the first two of those, and it is worth understanding where it fits in a market that is quietly standardising itself.

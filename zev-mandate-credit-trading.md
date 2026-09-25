@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 The ZEV mandate is usually described as a rule that forces car makers to sell electric cars, with fines if they do not. That description is true but incomplete. Underneath the headline targets sits a full trading system, with allowances, credits, exchange rates and an interest rate. Manufacturers can buy and sell compliance, borrow it from their own future, or earn it by making their petrol cars more efficient.

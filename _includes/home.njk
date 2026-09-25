@@ -1,27 +1,63 @@
 ---
 layout: base.njk
 ---
-<div class="hero">
-    <p class="kicker">Independent UK car coverage</p>
-    <h1>The car market, read properly.</h1>
-    <p class="standfirst">TurningCircle covers the UK car market and the switch to electric, with the data behind every claim. All figures link to their sources, and nothing here is sponsored.</p>
-</div>
-<section aria-label="Latest articles">
-    <p class="list-head">Latest articles</p>
-    <ul class="article-list">
-        {% for post in collections.posts %}
-        <li>
-            <div class="entry-meta">
-                <span class="tag">{{ post.data.tags[0] | tagLabel }}</span>
-                <span>{{ post.date | dateHuman }}</span>
-                <span>{{ post.templateContent | readingTime }} min read</span>
-            </div>
-            <h2 class="entry-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-            {% if post.data.description %}<p class="entry-desc">{{ post.data.description }}</p>{% endif %}
-        </li>
-        {% endfor %}
-    </ul>
+{% from "card.njk" import leader, card, river, pager %}
+
+{% if pagination.pageNumber == 0 %}
+{# ---------------------------------------------------------------- page one #}
+<section class="top">
+    <div>{{ leader(posts[0]) }}</div>
+    <aside class="today">
+        <p class="rule-head">Today<span>{{ today | dateShort }}</span></p>
+        <ol>
+            {% for a in posts.slice(1, 6) %}
+            <li><div>
+                <a href="{{ a.url }}">{{ a.data.title }}</a>
+                <span>{{ a.data.topic }} &middot; {{ a.templateContent | readingTime }} min</span>
+            </div></li>
+            {% endfor %}
+        </ol>
+    </aside>
 </section>
+
+<section class="quad">
+    {% for a in posts.slice(6, 10) %}{{ card(a, "(max-width:620px) 100vw, 260px", 800, 450, 2) }}{% endfor %}
+</section>
+
+<section class="briefs">
+    {% for a in posts.slice(10, 22) %}{{ card(a, "(max-width:620px) 100vw, (max-width:960px) 50vw, 340px", 800, 450, 3) }}{% endfor %}
+</section>
+
+{{ pager() }}
+
+{# topic rails: what each beat has been covering, drawn from older stories #}
+<section class="four-rails">
+    {% set railPool = collections.posts.slice(22) %}
+    {% for t in site.topics %}
+    {% set railList = railPool | byTopic(t) %}
+    {% if railList.length < 4 %}{% set railList = collections.posts | byTopic(t) %}{% endif %}
+    {% if railList.length > 1 %}
+    <div>
+        <p class="rule-head">{{ t }}<a href="/topic/{{ t | topicSlug }}/">All &rarr;</a></p>
+        <ul>
+            {% for a in railList %}{% if loop.index <= 6 %}
+            <li><a href="{{ a.url }}">{{ a.data.title }}</a><span class="d">{{ a.date | dateHuman }}</span></li>
+            {% endif %}{% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    {% endfor %}
+</section>
+
+{% else %}
+{# ------------------------------------------------------------ later pages #}
+<p class="rule-head">Latest<span>page {{ pagination.pageNumber + 1 }} of {{ pagination.hrefs.length }}</span></p>
+<ul class="river">
+    {% for a in posts %}{{ river(a) }}{% endfor %}
+</ul>
+{{ pager() }}
+{% endif %}
+
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",

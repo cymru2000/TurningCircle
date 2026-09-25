@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/odometer"
+heroCredit: "Unsplash"
 ---
 
 The odometer has always been the first thing a used car buyer looks at, and passing 60,000 or 70,000 miles has long been treated as the moment a car's value falls off a cliff. A study of 47.4 million MOT tests, commissioned by the British Vehicle Rental and Leasing Association (BVRLA) and carried out by the research organisation New AutoMotive, has now put that instinct to the test using official DVSA records. On electric cars, at least, the instinct looks out of date.

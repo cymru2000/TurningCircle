@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/chargehub"
+heroCredit: "Pexels"
 ---
 
 Few numbers in the electric car debate are quoted as often, and understood as rarely, as the size of the UK's public charging network. Headline counts rise every month, yet driver experiences range from effortless to infuriating, sometimes on the same journey. With the first half of 2026's installation data now published, it is a good moment to take an honest stocktake of where public charging stands.

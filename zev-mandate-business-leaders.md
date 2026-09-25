@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 The consultation on the future of the zero emission vehicle mandate closes on 23 October, and one half of the argument has been getting most of the coverage. We set out the car industry's case in [our piece on the review](/zev-mandate-review-halfway/). What deserves equal attention is the reply, from the companies that have spent the past few years building the charging network and financing the cars.

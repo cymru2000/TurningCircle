@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/homecharge"
+heroCredit: "Pexels"
 ---
 
 Something has shifted in the way British households think about energy. A few years ago a home battery was an enthusiast's purchase, the kind of thing discussed on solar forums. Now it is a mainstream option that sits alongside the EV and the wallbox in the garage, and a growing number of electric car drivers are looking at the battery on the wall as well as the one under the floor.

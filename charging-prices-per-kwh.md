@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/chargehub"
+heroCredit: "Pexels"
 ---
 
 There is no single price for charging an electric car on the UK public network, and pretending otherwise is where most confusion starts. Each charge point operator sets its own rates, prices can differ between two chargers on the same network in different towns, and the rate you see on a sticker is usually the pay-as-you-go price, before any subscription or membership discount. The most useful number to hold in your head is the price per kilowatt-hour; everything else follows from it.

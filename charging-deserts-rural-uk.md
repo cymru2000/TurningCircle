@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Charging"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/chargehub"
+heroCredit: "Pexels"
 ---
 
 Headline charging statistics have become a victory lap: [121,171 public chargers as of 1 July, 174.9 per 100,000 of population](https://www.gov.uk/government/statistics/electric-vehicle-charging-infrastructure-statistics-1-july-2026/public-electric-vehicle-charging-infrastructure-statistics-1-july-2026), a network that grew 10% in a year. But an average is a way of hiding a distribution, and the distribution of Britain's charging network is anything but even. Per head of population, London enjoys roughly three times the chargers of the North East, and the pattern repeats across the country: cities have choice, market towns have a fast charger behind the Tesco, and the villages in between have their own driveways or nothing.

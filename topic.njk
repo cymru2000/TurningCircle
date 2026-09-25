@@ -1,0 +1,44 @@
+---
+layout: base.njk
+pagination:
+  data: site.topics
+  size: 1
+  alias: topic
+permalink: "/topic/{{ topic | topicSlug }}/"
+eleventyExcludeFromCollections: true
+description: "Every TurningCircle story on one beat of the UK car market."
+---
+{% from "card.njk" import photo, card %}
+{% set stories = collections.posts | byTopic(topic) %}
+<section class="topic-head">
+    <p class="kicker">Topic</p>
+    <h1>{{ topic }}</h1>
+    <p>{{ topicBlurbs[topic] or ("Every " + topic | lower + " story on TurningCircle, newest first.") }}</p>
+</section>
+<section class="topic-list">
+    {% if stories.length %}
+    <div class="topic-feature">
+        <div>
+            {% if stories[0].data.hero %}<figure class="thumb"><a href="{{ stories[0].url }}" tabindex="-1">{{ photo(stories[0].data.hero, "(max-width:960px) 100vw, 660px", 1600, 900, true) }}</a></figure>{% endif %}
+            <h2><a href="{{ stories[0].url }}">{{ stories[0].data.title }}</a></h2>
+            {% if stories[0].data.description %}<p>{{ stories[0].data.description }}</p>{% endif %}
+            <p class="meta"><span>{{ stories[0].date | dateHuman }}</span><span>{{ stories[0].templateContent | readingTime }} min read</span></p>
+        </div>
+        <div>
+            <p class="rule-head">More in {{ topic }}<span>{{ stories.length }} stories</span></p>
+            <ul class="related">
+                {% for a in stories.slice(1, 6) %}
+                <li><a href="{{ a.url }}">{{ a.data.title }}<span class="d">{{ a.date | dateHuman }} &middot; {{ a.templateContent | readingTime }} min read</span></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% if stories.length > 6 %}
+    <div class="topic-grid">
+        {% for a in stories.slice(6) %}{{ card(a, "(max-width:620px) 100vw, (max-width:960px) 50vw, 340px", 800, 450, 3) }}{% endfor %}
+    </div>
+    {% endif %}
+    {% else %}
+    <p>No stories filed in this topic yet.</p>
+    {% endif %}
+</section>

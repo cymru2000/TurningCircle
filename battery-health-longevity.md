@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/motorway"
+heroCredit: "Unsplash"
 ---
 
 Ask a room of drivers what puts them off electric cars and the battery comes up quickly. Not the price, not the charging, but the worry that the most expensive component in the car will fade away years before the rest of it is finished. It is a reasonable fear on paper: a traction battery is a lump of chemistry, chemistry ages, and replacing one out of warranty is expensive. The interesting thing is what happens when you swap the fear for the field data. Two large studies published in the last eighteen months, one from each side of the Atlantic, point the same way, and the numbers are more reassuring than most buyers expect.

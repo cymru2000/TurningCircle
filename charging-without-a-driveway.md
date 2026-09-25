@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/terrace"
+heroCredit: "Unsplash"
 ---
 
 For anyone who parks on the street, the cheapest electricity in Britain has been sitting on the wrong side of a pavement. A cable run from a front door to a car at the kerb had to be laid safely, and the standard solution, a shallow channel set into the pavement, could require planning permission on top of approval from the highway authority. On 11 September the government confirmed it is removing that planning step, [in its response to the consultation on electric vehicle charging and permitted development rights](https://www.gov.uk/government/consultations/electric-vehicle-charging-changes-to-permitted-development-rights).

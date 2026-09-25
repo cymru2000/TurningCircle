@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 The ZEV mandate is usually discussed as a car policy. The headline numbers everyone quotes, 33% of new cars this year, 38% next, belong to the passenger market. But the regulation actually governs two markets at once, cars and vans, and the van side is where the mechanism is being tested hardest. This month the government opened a formal review of the whole scheme, and the way flexibilities are carrying the van market sits at the centre of that conversation. To understand what might change, it helps to understand what the rules actually allow.

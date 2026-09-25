@@ -6,6 +6,7 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
 ---
 
 The SMMT's July registration figures land this morning, and they arrive with more baggage than usual. June delivered a record 30.0% battery electric share, the first half of the year closed at a record 25.0%, and the industry is mid-conversation about whether the mandate itself is about to be rewritten. Whatever the July numbers say, they will be read politically as well as commercially.

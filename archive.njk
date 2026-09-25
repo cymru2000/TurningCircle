@@ -1,0 +1,22 @@
+---
+layout: base.njk
+title: "Archive"
+description: "Every TurningCircle article, month by month."
+permalink: "/archive/"
+eleventyExcludeFromCollections: true
+---
+<section class="topic-head">
+    <p class="kicker">Archive</p>
+    <h1>Everything we have published</h1>
+    <p>All {{ collections.posts.length }} stories, newest first. The front page carries the most recent; the topics in the bar above are the way in by subject.</p>
+</section>
+{% for month in collections.posts | monthGroups %}
+<section class="archive-month">
+    <p class="rule-head">{{ month.label }}<span>{{ month.items.length }} stories</span></p>
+    <ul class="archive-list">
+        {% for a in month.items %}
+        <li><a href="{{ a.url }}">{{ a.data.title }}</a><span class="d">{{ a.date | dateHuman }}</span></li>
+        {% endfor %}
+    </ul>
+</section>
+{% endfor %}
