@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if title and title != "TurningCircle" %}{{ title }} | TurningCircle{% else %}TurningCircle - The UK car market, read properly{% endif %}</title>
+    <title>{% if page.url.startsWith("/page/") %}{{ title or "TurningCircle" }}, page {{ pagination.pageNumber + 1 }}{% elif title and title != "TurningCircle" %}{{ title }} | TurningCircle{% else %}TurningCircle - The UK car market, read properly{% endif %}</title>
     {% if description %}<meta name="description" content="{{ description }}">{% endif %}
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <meta name="theme-color" content="#faf8f4">

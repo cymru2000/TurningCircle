@@ -6,7 +6,9 @@ pagination:
   alias: topic
 permalink: "/topic/{{ topic | topicSlug }}/"
 eleventyExcludeFromCollections: true
-description: "Every TurningCircle story on one beat of the UK car market."
+eleventyComputed:
+  title: "{{ topic }}"
+  description: "{{ topicBlurbs[topic] }}"
 ---
 {% from "card.njk" import photo, card %}
 {% set stories = collections.posts | byTopic(topic) %}
