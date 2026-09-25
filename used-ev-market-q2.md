@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/showroom"
+heroCredit: "Pexels"
 ---
 
 The most important electric car numbers of the summer were not the new registration figures. They were the used ones, published this week by the SMMT, and they show the second-hand market quietly passing a milestone. Between April and June, 110,761 used battery electric cars changed hands, up 67% on the same quarter last year, taking a record 5.5% share of the used market. More than one in every 18 second-hand buyers chose fully electric, against around one in 30 a year ago.

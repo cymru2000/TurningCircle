@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/evstreet"
+heroCredit: "Pexels"
 ---
 
 The last quarter of the year is the busiest window in the new car market, and this one arrives with more electric models in UK showrooms than any autumn before it. What follows is a guide to the ones that are genuinely orderable or arriving before January, checked against manufacturer announcements and confirmed UK pricing as of today. Where a price or a date could not be verified, the model has been left out. The 76-plate cars landed at the start of the month, so dealers are working through launch allocations, as we noted on [plate change day](/the-76-plate-day-one/).

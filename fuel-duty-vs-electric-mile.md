@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 Ask most drivers what tax they pay to drive and they will mention the disc, or the lack of one. The bigger levy is hiding in the pump price. Fuel duty is charged per litre, before VAT is added on top, and it has been the Treasury's workhorse motoring tax for decades. For anyone weighing up an electric car against a petrol one, the cleanest way to see the difference is to convert everything to pence per mile. The results are more dramatic than most people expect.

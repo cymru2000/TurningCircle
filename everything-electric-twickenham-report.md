@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/evstreet"
+heroCredit: "Pexels"
 ---
 
 The show that calls itself the world's biggest home energy and electric vehicle exhibition came to south-west London on 11 and 12 September, and for the first time it did so at a rugby ground rather than an exhibition hall. [Everything Electric GREATER LONDON](https://uk.everythingelectric.show/visit-everything-electric-greater-london) took over the West Car Park at Allianz Stadium, Twickenham, with doors open from 9am to 4pm on both days and general admission from £10, under-16s free.

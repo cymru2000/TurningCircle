@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 The Electric Car Grant has quietly become one of the most generous purchase incentives on the British market. Since it launched in July 2025 it has taken thousands of pounds off new electric cars, and the list of qualifying models keeps growing. The catch is that not every EV qualifies, and the difference between the two discount levels is large: £3,750 in the top band, £1,500 in the second. If you are shopping for a new electric car right now, knowing which models carry which discount is worth more than any negotiation you will have at the dealership.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/homecharge"
+heroCredit: "Pexels"
 ---
 
 If you are buying an electric car and you have a driveway, a home wallbox is the single best investment you can make. Public charging works, but charging at home on an overnight tariff costs a fraction of the price per mile, and the car refuels while you sleep. The question most buyers arrive with is simple: what will a wallbox actually cost me? The answer is more manageable than many expect, and for a large group of households the government will pay a meaningful chunk of it.

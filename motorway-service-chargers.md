@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/motorway"
+heroCredit: "Unsplash"
 ---
 
 The motorway service area has always had two jobs: fuel and a break. For electric cars the two have quietly merged, since the time your car spends charging is time you would often have spent buying a coffee anyway. But the experience of charging on the motorway network has changed so quickly that advice from even three years ago is out of date. The single faulty 50kW post that defined early EV motorway travel is being replaced by banks of chargers that look more like fuel forecourts. Here is where the network actually stands in the summer of 2026.

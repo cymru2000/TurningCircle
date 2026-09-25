@@ -7,6 +7,7 @@ author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
 image: /assets/og/the-maturing-road.png
+topic: "New cars"
 ---
 
 Choosing an electric car used to mean choosing between a handful of options. That is no longer true. The UK market now offers more than sixty fully electric models, prices have fallen across most segments, and the data tells us exactly what other drivers are doing with theirs. This guide sets out where the market stands right now, what the ownership numbers look like, and which cars we would actually recommend for different budgets and needs.

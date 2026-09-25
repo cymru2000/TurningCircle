@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/showroom"
+heroCredit: "Pexels"
 ---
 
 Today every new car registered in Britain wears a new identity: the 76 plate, which replaces the 26 plate issued in March. Nothing mechanical changes, no roadworthiness rules shift, and yet this single calendar date moves more metal than almost any other force in the market. [March and September together account for roughly 35% of annual new car registrations](https://www.autonergy.co/articles/uk-march-september-twin-peaks), which is why the industry plans its year around two mornings rather than twelve months.

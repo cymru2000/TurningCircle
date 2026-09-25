@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/forecourt"
+heroCredit: "Pexels"
 ---
 
 Ask an electric car owner what surprised them most about running costs, and insurance comes up more often than charging. The pattern is consistent in the data: according to [ABI figures](https://www.bestchargers.co.uk/electric-cars/electric-car-insurance-cost-uk/), the average annual EV premium sits around £707 against £558 for a petrol car, a gap of roughly £150 or about 25%. It is the one running cost where electric motoring still reliably costs more, and understanding why it exists tells you a lot about which cars pay it and how long it will last.

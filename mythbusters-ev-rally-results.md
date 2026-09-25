@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/roadtrip"
+heroCredit: "Pexels"
 ---
 
 Five days, more than 1,000 miles for the cars and vans, around 900 for the trucks and trailers, and a finish line at Allianz Stadium in Twickenham, the show we covered in [our review of Everything Electric Greater London](/everything-electric-twickenham-report/). The [results of the GREENFLEET Mythbusters EV Rally](https://www.greenfleet.net/news/16092026/mythbusters-ev-rally-reveals-its-most-efficient-and-safest-teams) were published on 16 September, and they are more interesting for what they measure than for who won.

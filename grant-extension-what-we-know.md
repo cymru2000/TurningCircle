@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Policy"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 Grants for electric cars have a mixed reputation, because Britain has run them before and retired them. The current Electric Car Grant, launched in July 2025, is a bigger and more targeted affair: £1,500 or £3,750 off the list price of qualifying models, funded by the Treasury rather than by a fixed pot that runs dry in weeks. With an [extra £1.3 billion added at the Autumn Budget to extend the scheme](https://www.gov.uk/government/news/four-more-ev-models-qualify-for-3750-discount-under-electric-car-grant-as-government-pumps-an-extra-15-billion-into-the-switch-to-electric), it is worth asking what a year of grant-supported buying has actually demonstrated. The evidence so far points three ways at once.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Policy"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 The most consequential car policy argument in Britain is currently running in its middle weeks, and most drivers have never heard of it. The government's [zero emission vehicle mandate review](https://www.gov.uk/government/consultations/zero-emission-vehicle-mandate-review), opened by the Department for Transport on 14 August, is gathering evidence on how the UK's flagship electric car regulation should work for the rest of the decade, and it closes on 23 October. What comes out of it will shape which cars sit on dealer forecourts, how heavily they are discounted, and how fast the market keeps moving, so it is worth understanding what is actually being weighed.

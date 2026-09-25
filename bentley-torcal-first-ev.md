@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/lead-bentley"
+heroCredit: "Unsplash"
 ---
 
 Bentley pulled the cover off the Torcal in London, and in doing so ended 107 years of combustion-only history. The car is Bentley's fourth model line and its first without an engine, built in Crewe and aimed at a broader group of buyers than the brand has chased before. The specifications are striking, but the more interesting story is the bet underneath them, because the top of the car market is now the place where electric demand is genuinely being tested, and the most expensive brands do not agree on the answer.

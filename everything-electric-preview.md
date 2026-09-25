@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/evstreet"
+heroCredit: "Pexels"
 ---
 
 Later this month, the biggest date in the UK electric calendar lands in south-west London. Everything Electric GREATER LONDON runs at Allianz Stadium, Twickenham, on 11 and 12 September, filling the stadium's West Car Park with electric cars, home energy technology and more live content than most visitors can physically attend. If you are weighing up an electric car, a heat pump, or both at once, this is the one weekend of the year built for exactly that question.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Events"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/evstreet"
+heroCredit: "Pexels"
 ---
 
 On Friday morning, the car park of a rugby stadium in south-west London becomes the most concentrated display of electrified transport and home energy technology in the country. Everything Electric Greater London runs [Friday and Saturday, 11 and 12 September, at Allianz Stadium Twickenham](https://allevents.in/twickenham/everything-electric-greater-london/200030242752837), and whatever your position on the switch to electric, from fully converted to openly sceptical, there is something specific in it for you. With the doors three days away, here is how the show fits together and how to work it.

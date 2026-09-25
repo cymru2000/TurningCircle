@@ -7,6 +7,9 @@ author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
 image: /assets/og/the-ev-mandate-gap.png
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 The government gave the car market a number to hit. By the end of 2026, battery electric cars should account for 33% of new registrations under the ZEV Mandate, rising to 38% in 2027. The mandate is the single clearest line on the map of where this country wants its roads going, and it gives everyone a shared yardstick. The question each month is simple: how far away from that line are we actually standing?

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/showroom"
+heroCredit: "Pexels"
 ---
 
 The July registration figures landed this week, and the headline writers have had their fun: best July since 2019, electric cars up 44.5%, eighth consecutive month of growth. All true. But monthly registration data rewards a careful read, and punishes a lazy one, so here is what the [SMMT's July figures](https://www.smmt.co.uk/huge-ev-boost-in-july-yet-mandate-gap-persists/) actually say, and the traps to avoid when interpreting them.

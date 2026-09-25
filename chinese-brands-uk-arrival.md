@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/showroom"
+heroCredit: "Pexels"
 ---
 
 Ask anyone who bought a new car in March 2023 what a Jaecoo was and you would have been met with a blank stare. The brand did not exist here. BYD had sold a handful of Atto 3s through a small network of five dealers. Three years on, the picture has changed beyond recognition: Chinese-owned brands are on course to take [around 20% of new car sales in the UK this year](https://cardealermagazine.co.uk/chinese-firm-byd-tops-100000-uk-car-sales-just-three-years-after-launch/325994), and the pace is still building.

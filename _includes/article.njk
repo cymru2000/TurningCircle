@@ -1,9 +1,16 @@
 ---
 layout: base.njk
 ---
+{% from "card.njk" import photo %}
 <article>
+    {% if hero %}
+    <figure class="article-hero">
+        <div class="thumb">{{ photo(hero, "(max-width:1180px) 100vw, 1140px", 1600, 900, true) }}</div>
+        {% if heroCredit %}<p class="credit">Photograph: {{ heroCredit }}</p>{% endif %}
+    </figure>
+    {% endif %}
     <header class="article-header">
-        <p class="kicker">{{ tags[0] | tagLabel }}</p>
+        <p class="kicker"><a href="/topic/{{ topic | topicSlug }}/" style="text-decoration:none">{{ topic or tags[0] | tagLabel }}</a></p>
         <h1>{{ title }}</h1>
         {% if description %}<p class="article-standfirst">{{ description }}</p>{% endif %}
         <div class="byline">
@@ -17,17 +24,13 @@ layout: base.njk
     </div>
 </article>
 <aside class="article-footer">
-    <p class="list-head">More from TurningCircle</p>
+    {% set related = (collections.posts | byTopic(topic)) | notUrl(page.url) %}
+    {% if related.length == 0 %}{% set related = collections.posts | notUrl(page.url) %}{% endif %}
+    <p class="rule-head">More in {{ topic }}<a href="/topic/{{ topic | topicSlug }}/">All {{ topic }} &rarr;</a></p>
     <ul class="related">
-        {% set related = [] %}
-        {% for p in collections.posts %}
-            {% if p.url != page.url and related.length < 2 %}
-                {% set _pushed = related.push(p) %}
-            {% endif %}
-        {% endfor %}
-        {% for p in related %}
-        <li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
-        {% endfor %}
+        {% for p in related %}{% if loop.index <= 3 %}
+        <li><a href="{{ p.url }}">{{ p.data.title }}<span class="d">{{ p.date | dateHuman }} &middot; {{ p.templateContent | readingTime }} min read</span></a></li>
+        {% endif %}{% endfor %}
     </ul>
 </aside>
 <script type="application/ld+json">
@@ -38,8 +41,9 @@ layout: base.njk
     {% if description %}"description": {{ description | dump | safe }},{% endif %}
     "datePublished": "{{ date | dateISO }}",
     "dateModified": "{{ (updated or date) | dateISO }}",
-    "image": ["{{ site.url }}{{ image or ('/assets/og/' ~ (page.url | replace('/', '')) ~ '.png') }}"],
+    "image": ["{{ site.url }}{{ image or (hero and (hero ~ '-og.jpg')) or ('/assets/og/' ~ (page.url | replace('/', '')) ~ '.png') }}"],
     "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+    "articleSection": {{ (topic or '') | dump | safe }},
     "author": {
         "@type": "Organization",
         "name": {{ (author or 'The TurningCircle Team') | dump | safe }},

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/showroom2"
+heroCredit: "Pexels"
 ---
 
 Every January the UK car market resets its counters, and every June the first half of the year closes with a proper stocktake. The 2026 half-year figures are now in, and they deserve a careful read rather than a glance at the headline. Behind the record numbers sits a market that is changing shape in ways that matter to anyone buying a car this year.

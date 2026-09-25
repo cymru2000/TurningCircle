@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/forecourt"
+heroCredit: "Pexels"
 ---
 
 Used electric cars spent the best part of three and a half years losing value, and that run is over. [Auto Trader's August market data](https://plc.autotrader.co.uk/news-views/press-releases/used-car-market-gains-momentum-as-both-independent-franchise-retailers-record-growth-for-first-time-this-year/), published on 8 September, puts the average asking price of a used electric car at £25,095, up 3.8% on a year earlier and 0.5% on July. It is the third consecutive month of annual price growth for the segment, and the strongest price performance of any fuel type in the market.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/homecharge"
+heroCredit: "Pexels"
 ---
 
 Every EV buying guide says the same thing: get a 7kW home wallbox. It is repeated so often that it has started to sound like doctrine rather than advice. But the honest answer deserves the honest maths, and the maths is more interesting than the slogan. The average UK car does not drive very far each day, an ordinary plug can technically keep up with that, and yet the wallbox is still usually the right call. Here is why, without the sales pitch.

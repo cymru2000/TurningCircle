@@ -6,6 +6,7 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
 ---
 
 Of all the running-cost comparisons between electric and petrol cars, servicing is the one with the least ambiguity. Fuel costs depend on tariffs and pump prices, insurance on postcodes and claims history, depreciation on market mood. Servicing depends on what is physically under the bonnet, and an electric car simply has less of it. The data now backs this up from several independent directions, and the size of the saving is larger than most buyers expect.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/chargehub"
+heroCredit: "Pexels"
 ---
 
 Heavy vehicles have been the awkward part of the electric transition. Vans went electric early and cars followed, but lorries and buses waited for chargers that could take a 44-tonne load without blocking the rest of the forecourt. This week brought three signals that the waiting is ending, and the story has moved from whether the infrastructure can be built to how quickly it can be paid for.

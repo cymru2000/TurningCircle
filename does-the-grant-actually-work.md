@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 The Electric Car Grant passed its first anniversary this summer, and the honest answer to whether it works is: partly, and not for the reasons the press releases suggest. More than 140,000 new electric cars have been bought with the discount applied, which sounds like a triumph. Yet the surveys say most car buyers still do not know the scheme exists, and most eligible cars receive less than half the headline discount. Both things are true at once, and unpacking them tells you a lot about how EV policy actually behaves in the real world.

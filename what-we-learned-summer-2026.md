@@ -6,6 +6,7 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
 ---
 
 Summer is when the car market tells on itself. Volumes dip ahead of the September plate change, fleets pause, and the buyers who do turn up are the motivated ones, which makes the season's numbers a cleaner read of underlying demand than any month where discounts and launch noise do the lifting. With August's figures now published, the summer of 2026 has left four signals worth setting out before the autumn, the industry's real test, begins.

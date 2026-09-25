@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/showroom2"
+heroCredit: "Pexels"
 ---
 
 Britain's biggest car maker spent the second week of September telling its own workforce that it needs to become smaller in order to keep investing. [Jaguar Land Rover](https://www.reuters.com/business/world-at-work/jaguar-land-rover-cut-4000-jobs-globally-over-next-two-years-2026-09-07/) confirmed on 7 September that it will reduce its global workforce by around 4,000 roles over the next two years, with the reductions delivered through voluntary redundancy and aimed at salaried and management staff rather than the production lines.

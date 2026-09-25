@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "New cars"
+hero: "/assets/img/stock/motorway"
+heroCredit: "Unsplash"
 ---
 
 Every autumn the same question lands in our inbox: will my electric car still work properly when winter arrives? It is the single most common worry among EV buyers and sceptics alike, and it has attracted more folklore than almost any other part of electric motoring. Some of that folklore contains a kernel of truth, and some of it is simply wrong. With the cold months a few weeks away, this is a good moment to set out what the test data actually shows.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Guides"
+hero: "/assets/img/stock/smallcar"
+heroCredit: "Pexels"
 ---
 
 The electric car conversation tends to fixate on range, motorways and the price of public charging. Yet the ordinary British car journey looks nothing like that. It is a school run, a supermarket trip, a commute of a few miles through stop-start traffic. That is the driving most of us actually do, and it is exactly the driving that small electric cars are built for. The maths, the streets and even the charging habits line up in favour of going small and going electric if your life happens in town.

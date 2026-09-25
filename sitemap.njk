@@ -18,4 +18,19 @@
   <url>
     <loc>{{ site.url }}/about/</loc>
   </url>
+  <url>
+    <loc>{{ site.url }}/archive/</loc>
+  </url>
+  {%- for t in site.topics %}
+  <url>
+    <loc>{{ site.url }}/topic/{{ t | topicSlug }}/</loc>
+  </url>
+  {%- endfor %}
+  {# keep the front-page page size in step with index.md #}
+  {%- set pageCount = (collections.posts.length / 22) | round(0, 'ceil') %}
+  {%- for i in range(2, pageCount + 1) %}
+  <url>
+    <loc>{{ site.url }}/page/{{ i }}/</loc>
+  </url>
+  {%- endfor %}
 </urlset>

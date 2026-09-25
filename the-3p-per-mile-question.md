@@ -6,6 +6,7 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
 ---
 
 Somewhere in the middle of every electric car conversation in 2026 sits the same question: what happens when the taxman comes for the miles? The answer now exists in law, or close to it. From 1 April 2028, battery electric cars will pay a road charge of 3p per mile, plug-in hybrids 1.5p, under the new Electric Vehicle Excise Duty, or eVED. The government published its response to the consultation on the scheme's design in July, so the shape of the thing is now clear. Here is what it means for you.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Used market"
+hero: "/assets/img/stock/forecourt"
+heroCredit: "Pexels"
 ---
 
 The used EV market of 2026 is a different proposition from the one buyers got used to. For three years, prices slid while early adopters traded in and everyone else waited. That has now reversed. Used battery electric sales hit a record [110,761 transactions in the second quarter, up 67% on a year earlier](https://www.smmt.co.uk/used-car-market-returns-to-growth-as-ev-sales-accelerate/), and prices are climbing again: used EV values rose 3.3% year on year in July, the strongest annual growth on record, according to [Auto Trader data](https://cardealermagazine.co.uk/used-ev-prices-saw-record-annual-growth-in-july-as-autotrader-says-market-has-moved-decisively-beyond-correction/326289). A strengthening market is good news for sellers and a warning for buyers: the bargain-basement era is ending, so the checks you make before buying matter more than they did.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Policy"
+hero: "/assets/img/stock/westminster"
+heroCredit: "Unsplash"
 ---
 
 If you drive a company car, the single most consequential number on your payslip is the benefit-in-kind rate, or BiK. It is the percentage of your car's value that HMRC treats as taxable income, and it ranges from single digits to well over a third depending on what powers the car. In the 2026/27 tax year, that gap is wider than it has ever been, and it is doing exactly what it was designed to do: pushing company car choice decisively towards electric.

@@ -6,6 +6,9 @@ tags: ["UK-Cars", "EV", "Guides"]
 author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
+topic: "Charging"
+hero: "/assets/img/stock/chargehub"
+heroCredit: "Pexels"
 ---
 
 The Department for Transport's monthly public charging indicator was updated on 10 September, and the number it carries is a genuine milestone. At the end of August the UK had [123,677 public electric vehicle chargers](https://zapmap.com/ev-stats/ev-charging-statistics), sitting on 96,708 physical devices across 47,810 locations. Zapmap, which supplies the data underpinning the government's statistics, recorded a net increase of 953 chargers during the month and 7,634 additions since the start of 2026. That is year on year growth of 8.4%.
