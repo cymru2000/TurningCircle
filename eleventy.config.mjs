@@ -3,8 +3,9 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
-  // The repo README is for GitHub, not a site page
+  // The repo README and agent instructions are for GitHub, not site pages
   eleventyConfig.ignores.add("README.md");
+  eleventyConfig.ignores.add("AGENTS.md");
 
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("favicon.svg");
