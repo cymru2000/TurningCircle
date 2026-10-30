@@ -7,7 +7,7 @@ author: "The TurningCircle Team"
 layout: article.njk
 ogType: article
 topic: "New cars"
-hero: "/assets/img/stock/showroom"
+hero: "/assets/img/stock/showroom2"
 heroCredit: "Pexels"
 ---
 
@@ -49,9 +49,9 @@ Volkswagen's full-year outlook is revenue of around €315 billion and an operat
 
 The €31 billion cost programme is meant to close the gap. It covers a streamlined model range, lower vehicle costs, simpler structures, more efficient plants and faster technology development. The results do not say when the group expects the EV margin gap to close, which is the number to watch over the next year.
 
-There is no retreat from electric cars in the plan. The order bank is the evidence: 40% of it is electric, and the small EV family has taken around 150,000 orders. The task is to make those cars earn as much as the petrol and diesel models they replace. The political pressure to sell more of them is not going away, and [the fight over the 2030 ZEV target](https://turningcircle.co.uk/zev-2030-decision-haigh/) is still running.
+There is no retreat from electric cars in the plan. The order bank is the evidence: 40% of it is electric, and the small EV family has taken around 150,000 orders. The task is to make those cars earn as much as the petrol and diesel models they replace. The political pressure to sell more of them is not going away, and [the fight over the 2030 ZEV target](/zev-2030-decision-haigh/) is still running.
 
-Competitive pressure in Europe is part of the group's own explanation, and [newer Chinese brands](https://turningcircle.co.uk/geely-first-year-uk/) are part of that pressure. Volkswagen's answer is scale and cost, which is why the job cuts and the shrinking model range matter more than the €71 million headline.
+Competitive pressure in Europe is part of the group's own explanation, and [newer Chinese brands](/geely-first-year-uk/) are part of that pressure. Volkswagen's answer is scale and cost, which is why the job cuts and the shrinking model range matter more than the €71 million headline.
 
 ## Sources
 
