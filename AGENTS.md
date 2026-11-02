@@ -6,7 +6,7 @@ TurningCircle (`turningcircle.co.uk`) is an independent UK automotive editorial 
 
 It is a **static Eleventy v3 site**, not an application:
 
-- Zero client-side JavaScript, no cookies, no analytics, no ads, no external CSS/JS/CDN requests.
+- No cookies, no ads, no external CSS/JS/CDN requests. One deferred first-party analytics script (self-hosted Umami at `analytics.cnvrs.net`) is the only JavaScript, added once in `_includes/base.njk` and gated to the live domain with `data-domains`.
 - All CSS lives inline in a `<style>` block in `_includes/base.njk`; fonts are self-hosted variable WOFF2.
 - Build output `_site/` is plain HTML/XML/text hosted on GitHub Pages. No backend, no database, no runtime env vars.
 
@@ -99,7 +99,7 @@ heroCredit: "Unsplash"
 
 **Error handling and state.** Build-time only. There is no runtime error handling, no DI container, no logging library, and no persisted state; broken frontmatter or a missing template fails the Eleventy build. Python tools `print()` progress and `sys.exit` on missing inputs; `make-images.py` can fetch TTFs from Google Fonts but falls back to `C:/Windows/Fonts/*` paths.
 
-**Styling.** Pure CSS inside `base.njk` using custom properties (`--paper`, `--ink`, `--amber`, `--rule`, `--display`, `--text`, `--ui`, …). Do not introduce a stylesheet file, utility framework, or a `<script>` tag.
+**Styling.** Pure CSS inside `base.njk` using custom properties (`--paper`, `--ink`, `--amber`, `--rule`, `--display`, `--text`, `--ui`, …). Do not introduce a stylesheet file, utility framework, or any `<script>` other than the Umami analytics tag already in `base.njk`.
 
 ## Important Files
 

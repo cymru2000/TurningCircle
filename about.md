@@ -24,4 +24,4 @@ There are no sponsored posts and no affiliate links. If that ever changes, this 
 
 ## The site
 
-TurningCircle carries no advertising and does no tracking of any kind. It is a static site that loads no JavaScript, so it works quickly even on a poor connection.
+TurningCircle carries no advertising and no ad tracking. Pages are plain static HTML and load quickly even on a poor connection. The only script the site loads is a small, cookieless page counter, which tells us which stories are read without setting cookies or following anyone across other sites.
