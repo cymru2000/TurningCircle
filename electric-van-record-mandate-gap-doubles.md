@@ -19,7 +19,7 @@ The [SMMT's October release](https://www.smmt.co.uk/best-ever-october-for-new-el
 
 Diesel still does most of the work. Diesel vans took 20,735 registrations in the month, 79.5% of the total. Electric took 3,369, up from 2,132 a year earlier. The remaining 1,994 were classed as other fuels.
 
-The electric figure is a record for October and the biggest year-on-year percentage rise of 2026. The year-to-date electric total is 30,728, or 11.0% of the market, against 24% required this year.
+The electric figure is a record for October. The year-to-date electric total is 30,728, or 11.0% of the market, against 24% required this year.
 
 The pickup side of the same release went the other way, with registrations down 17.7% to 1,764 and 52.9% lower across the year ([our report on that](/pickup-registrations-halve-ranger-dominates/)).
 
