@@ -43,7 +43,7 @@ In 2019 the Beijing Chaoyang District Court found that the Landwind X7, built by
 
 Shape protection has been harder to secure in Britain. In 2020 the High Court upheld a refusal to register the Defender 90 and 110 shapes as trademarks after Ineos opposed the applications, clearing the way for the Grenadier. The court backed the Intellectual Property Office's finding that the shapes lacked distinctive character, including its conclusion that features obvious to enthusiasts "may be unimportant, or may not even register, with average consumers" ([Car Dealer, 4 August 2020](https://cardealermagazine.co.uk/jaguar-land-rover-loses-appeal-registering-land-rover-shapes-defender/199324)).
 
-That history helps explain why the Dutch case appears to rest on evidence of copying rather than resemblance alone. JLR is not claiming a boxy SUV as its property. It is trying to show that BYD took something specific.
+That history helps explain why the Dutch case appears to rest on evidence of copying rather than resemblance alone: JLR is trying to show that BYD took something specific, not merely that the Ti7 looks familiar.
 
 ## The market it lands in
 
