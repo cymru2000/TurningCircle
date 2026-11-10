@@ -13,7 +13,7 @@ heroCredit: "Pexels"
 
 The average motor insurance premium fell £4 to £562 in the third quarter, while insurers paid out £3.2bn in claims, matching the record set three months earlier. The two figures sit awkwardly together. The price of cover has stopped rising, the cost of the claims behind it has not, and one insurer carrying the difference has begun saying so in public.
 
-## The quarter in numbers
+## The £562 average and the £3.2bn bill
 
 The ABI's Motor Insurance Premium Tracker, which analyses more than 28 million policies a year, puts the average premium paid between July and September at £562 ([ABI, 9 November](https://www.abi.org.uk/media-hub/news-post/motor-insurance-payouts-remain-at-32-billion-for-second-consecutive-quarter)). That is £4 below the second quarter's £566 ([ABI, 29 July](https://www.abi.org.uk/media-hub/news-post/record-32-billion-paid-out-to-support-motor-insurance-customers-in-q2-2026)) and £11, or 2%, above the same period last year. Adjusted for inflation the average is £7 lower than it was a year earlier.
 
@@ -41,7 +41,7 @@ Small claims carry the same trend in miniature. The ABI puts the average windscr
 
 The government has been here before. Its Motor Insurance Taskforce published a final report in December 2025 that set out actions across departments and regulators aimed at bringing claims costs down, covering the cost of repairs and vehicle theft among other things ([DfT, 10 December 2025](https://www.gov.uk/government/publications/motor-insurance-taskforce-final-report)). The report found a strongly competitive market and put its emphasis on claims costs rather than on how insurers price risk. Ministers said they would keep delivering the actions it set out ([DfT, 10 December 2025](https://www.gov.uk/government/speeches/motor-insurance-taskforce-report)), and the taskforce itself has since concluded, leaving delivery to individual departments.
 
-## What it means for a buyer
+## What it means at renewal
 
 None of this means every premium is about to jump. Insurance is a competitive market, and the ABI's own release notes that premiums have been competitive enough to fall slightly while claims costs rose. Competition is also why a turn, when it comes, can be quick. Insurers that have spent a year pricing below the claims trend have less room to absorb a bad quarter.
 
@@ -51,7 +51,7 @@ The car matters as much as the quote. Repair inflation has not been confined to 
 
 Anyone buying used should get an insurance quote before agreeing a price. A cheap car with expensive glass and sensors can cost more to cover than a dearer one with simpler panels, and the difference shows up every year rather than once.
 
-## The number to watch
+## What a 7% correction would add
 
 If claims inflation runs at 7% and the average premium rises by the same amount, £562 becomes about £601, an increase of £39. That is arithmetic rather than a forecast, and Sabre is explicit that the timing of any market-wide correction is uncertain.
 
