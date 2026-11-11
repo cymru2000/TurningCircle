@@ -6,6 +6,8 @@ export default function (eleventyConfig) {
   // The repo README and agent instructions are for GitHub, not site pages
   eleventyConfig.ignores.add("README.md");
   eleventyConfig.ignores.add("AGENTS.md");
+  // Banked evergreen drafts: not published until moved into the repo root
+  eleventyConfig.ignores.add("drafts/**");
 
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("favicon.svg");
