@@ -29,7 +29,7 @@ Darkness is where the risk concentrates. Volvo's analysis of the DfT data found 
 
 The police-recorded figures are a fraction of the estimated deer toll, but they show what these collisions do to people. Across 2021 to 2025, the 1,503 animal-related injury collisions produced 1,939 casualties: 439 in 2021 from 348 collisions, 452 from 339 in 2022, 360 from 280 in 2023, 347 from 265 in 2024 and 341 from 271 in 2025. Around 28% of those collisions were classified as fatal or serious. The annual collision count has fallen from 348 in 2021 to 271 in 2025, but the casualty count has not fallen in step, which means the average severity per collision has risen.
 
-For context against other road risks, the same DfT dataset records tens of thousands of injury collisions every year, and [the DVSA's MOT figures show that vehicle condition is a separate, measurable risk](https://www.gov.uk/government/statistical-data-sets/dvsa-mot-statistics) that drivers can check themselves before a winter journey, much as our [MOT failure breakdown for 2025-26](/what-actually-fails-an-mot-2025-26/) sets out.
+For context against other road risks, the same DfT dataset records tens of thousands of injury collisions every year, and [the DVSA's MOT figures show that vehicle condition is a separate, measurable risk](https://www.gov.uk/government/statistical-data-sets/mot-testing-data-for-great-britain) that drivers can check themselves before a winter journey, much as our [MOT failure breakdown for 2025-26](/what-actually-fails-an-mot-2025-26/) sets out.
 
 ## What to do if a deer steps out
 
