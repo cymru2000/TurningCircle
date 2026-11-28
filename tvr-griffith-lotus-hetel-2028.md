@@ -29,7 +29,7 @@ For TVR the practical gain is immediate: its own production space, access to Lot
 
 ## The history behind the name
 
-TVR was founded in Blackpool by Trevor Wilkinson, whose engineering business became TVR Engineering and whose first name supplied the consonants for the brand. [TVR's own heritage pages](https://www.tvr.co.uk/heritage) record that the first chassis was built in 1949 and that the original Griffith ran from 1990 to 2002 under Peter Wheeler, who also gave the company the Cerbera, Tuscan and Sagaris. Production at the Blackpool factory ended in 2006, and the brand turns 80 next year. The 2028 Griffith is effectively an updated version of the 2017 car, with refreshed styling and interior promised for a full reveal in 2027; left-hand-drive versions homologated for the US market are planned for later in 2028, [Autoweek reports](https://www.autoweek.com/news/a74543655/new-tvr-griffith-coming-to-us-in-2028/), which would be TVR's first American-market car since 1987.
+TVR was founded in Blackpool by Trevor Wilkinson, whose engineering business became TVR Engineering and whose first name supplied the consonants for the brand. [TVR's own heritage pages](https://www.tvr.co.uk/heritage/wilkinson-era) record that the first chassis was built in 1949 and that the original Griffith ran from 1990 to 2002 under Peter Wheeler, who also gave the company the Cerbera, Tuscan and Sagaris. Production at the Blackpool factory ended in 2006, and the brand turns 80 next year. The 2028 Griffith is effectively an updated version of the 2017 car, with refreshed styling and interior promised for a full reveal in 2027; left-hand-drive versions homologated for the US market are planned for later in 2028, [Autoweek reports](https://www.autoweek.com/news/a74543655/new-tvr-griffith-coming-to-us-in-2028/), which would be TVR's first American-market car since 1987.
 
 ## What to watch between now and 2028
 
@@ -45,4 +45,4 @@ The honest caveat is that a factory announcement is not a car. The 2017 project 
 - [Autoweek: TVR Is Making a New Griffith and It's Coming to the US in 2028 (27 November 2026)](https://www.autoweek.com/news/a74543655/new-tvr-griffith-coming-to-us-in-2028/)
 - [Autonext: TVR Griffith finally gets its factory, at Lotus in Hethel from 2028 (27 November 2026)](https://www.autonext.co.uk/news/tvr-griffith-lotus-hethel-production-2028)
 - [The Manufacturer: Lotus launches Hethel Performance Hub to accelerate UK automotive innovation (30 June 2026)](https://www.themanufacturer.com/articles/lotus-launches-hethel-performance-hub-to-accelerate-uk-automotive-innovation/)
-- [TVR: Heritage (brand history, accessed 28 November 2026)](https://www.tvr.co.uk/heritage)
+- [TVR: Heritage - Wilkinson Era (brand history, accessed 28 November 2026)](https://www.tvr.co.uk/heritage/wilkinson-era)
